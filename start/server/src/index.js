@@ -3,10 +3,8 @@ const typeDefs = require('./schema');
 const isEmail = require('isemail');
 const { createStore } = require('./utils');
 const resolvers = require('./resolvers');
-
 const LaunchAPI = require('./datasources/launch');
 const UserAPI = require('./datasources/user');
-
 
 const store = createStore();
 
